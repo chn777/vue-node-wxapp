@@ -1,6 +1,6 @@
 <template>
     <div>
-        <HeaderAera/>
+        <HeaderAera :title="title"/>
         <input @keyup.enter="handleClick" type="text" v-model="newLesson" />
         <button @click="handleClick()">add</button>
 
@@ -24,7 +24,9 @@ export default
     },
     data() 
         {
+            
             return {
+                title:"hello VUE",
                 "lists": [
                 {name:'python',done:false},
                 {name:'nodejs',done:false},

@@ -6,7 +6,15 @@
     <title>vue-demo</title>
   </head>
   <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <div id="app">
+      <input type="text" v-model="newLesson" />
+      <button @click="handleClick()">add</button>
+
+      <ul>
+        <li v-for="(list,id) in lists">
+          {{ list }}
+        </li>
+      </ul>
+    </div>
   </body>
 </html>

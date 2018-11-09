@@ -4,17 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>vue-demo</title>
+    <style>
+      .ss{
+        text-decoration: line-through;
+        color : red
+      }
+    </style>
   </head>
   <body>
     <div id="app">
-      <input type="text" v-model="newLesson" />
+      <input @keyup.enter="handleClick" type="text" v-model="newLesson" />
       <button @click="handleClick()">add</button>
 
       <ul>
-        <li v-for="(list,id) in lists">
-          {{ list }}
+        <li :class="{ss:list.done}" @click="change(id)" v-for="(list,id) in lists">
+          {{ list.name }}
         </li>
       </ul>
+      <div>{{cremain}}</div>
     </div>
   </body>
 </html>

@@ -2,10 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c0e8774-d028-4a84-a860-20e0f8bcdc09" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/03_koa/router/koa-router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_koa/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/03_koa/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_koa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/03_koa/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/tunnel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/middlewares/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/process.prod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/qcloud.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/tools.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/tools/cAuth.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/tools/initdb.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,20 +37,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03_koa/router/index.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="299">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="koa-router.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03_koa/router/koa-router.js">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="483">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/demo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -50,10 +95,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>@</find>
+      <find>useQcloudLogin</find>
+      <find>host</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/02_mpvue/mpvueDemo" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,6 +118,12 @@
         <option value="$PROJECT_DIR$/03_koa/cn7-loger.js" />
         <option value="$PROJECT_DIR$/03_koa/router/index.js" />
         <option value="$PROJECT_DIR$/03_koa/router/koa-router.js" />
+        <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/project.config.json" />
+        <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.local.js" />
+        <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.local.js.example" />
+        <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.js" />
+        <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/demo.js" />
+        <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/routes/index.js" />
       </list>
     </option>
   </component>
@@ -83,12 +136,14 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/01/vue-demo/node_modules" />
     <handled-path value="$PROJECT_DIR$/02_mpvue/mpvueDemo/node_modules" />
+    <handled-path value="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/node_modules" />
     <handled-path value="$PROJECT_DIR$/03_koa/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/01/vue-demo/package.json" />
       <path value="$PROJECT_DIR$/02_mpvue/mpvueDemo/package.json" />
+      <path value="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/package.json" />
       <path value="$PROJECT_DIR$/03_koa/package.json" />
     </packageJsonPaths>
   </component>
@@ -113,13 +168,36 @@
             <path>
               <item name="vue-node-wxapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-node-wxapp" type="462c0819:PsiDirectoryNode" />
-              <item name="03_koa" type="462c0819:PsiDirectoryNode" />
+              <item name="02_mpvue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue-node-wxapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-node-wxapp" type="462c0819:PsiDirectoryNode" />
-              <item name="03_koa" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="02_mpvue" type="462c0819:PsiDirectoryNode" />
+              <item name="mpvueDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-node-wxapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-node-wxapp" type="462c0819:PsiDirectoryNode" />
+              <item name="02_mpvue" type="462c0819:PsiDirectoryNode" />
+              <item name="mpvueDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-node-wxapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-node-wxapp" type="462c0819:PsiDirectoryNode" />
+              <item name="02_mpvue" type="462c0819:PsiDirectoryNode" />
+              <item name="mpvueDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-node-wxapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-node-wxapp" type="462c0819:PsiDirectoryNode" />
+              <item name="02_mpvue" type="462c0819:PsiDirectoryNode" />
+              <item name="mpvueDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,6 +216,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/02_mpvue/mpvueDemo" />
       <recent name="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/todolist" />
       <recent name="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/components" />
     </key>
@@ -175,25 +254,27 @@
       <workItem from="1541750814850" duration="2967000" />
       <workItem from="1541980826600" duration="122000" />
       <workItem from="1541980965491" duration="72000" />
-      <workItem from="1541981057618" duration="4442000" />
+      <workItem from="1541981057618" duration="10498000" />
+      <workItem from="1541998104593" duration="2373000" />
+      <workItem from="1542002412679" duration="935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7603000" />
+    <option name="totallyTimeSpent" value="16967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003524" side_tool="true" weight="0.25939393" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25939393" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" visible="true" weight="0.2739394" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -217,6 +298,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03_koa/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -238,11 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-674" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/build/webpack.base.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -254,13 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -334,19 +417,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_koa/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_koa/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4370" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_koa/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="16" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03_koa/cn7-loger.js">
@@ -358,8 +431,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03_koa/router/koa-router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="368">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_koa/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/project.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/tools/cAuth.sql" />
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.local.js" />
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.local.js" />
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.local.js" />
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/qcloud.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/user.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/tunnel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2086" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/controllers/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
         </state>
       </provider>
     </entry>

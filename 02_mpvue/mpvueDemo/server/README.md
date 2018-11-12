@@ -32,7 +32,7 @@ tnpm run dev
 tnpm start
 ```
 
-按照[小程序创建资源配置指引](https://github.com/tencentyun/weapp-doc)进行操作，可以得到运行本示例所需的资源和服务，其中包括已部署好的示例代码及自动下发的 SDK 配置文件 `/etc/qcloud/sdk.config`。
+按照[小程序创建资源配置指引](https://github.com/tencentyun/weapp-doc)进行操作，可以得到运行本示例所需的资源和服务，其中包括已部署好的示例代码及自动下发的 SDK 配置文件 `/etc/qcloud/sdk.my_config`。
 
 - 示例代码部署目录：`/data/release/node-weapp-demo`
 - 运行示例的 Node 版本：`v8.1.0`
@@ -53,7 +53,7 @@ koa-weapp-demo
 │   └── user.js
 ├── middlewares
 │   └── response.js
-├── config.js
+├── my_config.js.js
 ├── package.json
 ├── process.json
 ├── nodemon.json
@@ -80,7 +80,7 @@ koa-weapp-demo
 
 `qcloud.js` 导出了一个 SDK 的单例，包含了所有的 SDK 接口，之后使用的时候只需要 `require` 这个文件就行，无需重复初始化 SDK。
 
-`config.js` 主要的配置如下：
+`my_configfig.js` 主要的配置如下：
 
 ```javascript
 {
@@ -121,6 +121,6 @@ koa-weapp-demo
 }
 ```
 
-除了 `config.js` ，腾讯云还会在你初始化小程序解决方案的时候，向你的机器下发 `sdk.config`，里面包含了你的腾讯云 AppId、SecretId、SecretKey 和服务器等信息，无需修改，`qcloud.js` 会自动引入。如果你想要在自己的机器上部署 SDK 的 Demo，请查看[自行部署 Demo 说明]()。
+除了 `my_config.js.js` ，腾讯云还会在你初始化小程序解决方案的时候，向你的机器下发 `sdk.my_config`，里面包含了你的腾讯云 AppId、SecretId、SecretKey 和服务器等信息，无需修改，`qcloud.js` 会自动引入。如果你想要在自己的机器上部署 SDK 的 Demo，请查看[自行部署 Demo 说明]()。
 
 除此以外，关于 SDK 的详细配置信息，还可以查看 [SDK 的 API 文档]()。

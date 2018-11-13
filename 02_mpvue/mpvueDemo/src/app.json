@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/index/main",
     "pages/book/main",
-    "pages/comments/main"
+    "pages/comments/main",
+    "pages/index/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,12 +13,7 @@
   "tabBar": {
     "selectedColor":"#EA5149",
     "list": [
-      {
-        "pagePath": "pages/index/main",
-        "text": "首页",
-        "iconPath":"static/img/me.png",
-        "selectedIconPath":"static/img/me-active.png"
-      },
+
       {
         "pagePath": "pages/book/main",
         "text": "图书",
@@ -30,6 +25,12 @@
         "text": "评论",
         "iconPath":"static/img/todo.png",
         "selectedIconPath":"static/img/todo-active.png"
+      },
+      {
+        "pagePath": "pages/index/main",
+        "text": "我",
+        "iconPath":"static/img/me.png",
+        "selectedIconPath":"static/img/me-active.png"
       }
     ]
   }

@@ -30,8 +30,12 @@ module.exports = async (ctx, next) => {
   const {isbn,openId} = ctx.request.body;
   if(isbn&&openId){
     const url = `https://api.douban.com/v2/book/isbn/${isbn}`
-    const data = await getJSON(url);
-    console.log(data);
+    const bookInfo = await getJSON(url);
+    const {title,image,alt,publisher,summary,price ,tags,author} = bookInfo;
+    const tagStr = tags.map(item=>{return `${item.name} ${item.count}` }).join(',');
+    const authorStr = author.join(',')
+    // tags.forEach(item=>tagStr+=(item.name +' '+ item.count+','));
+    console.log({title,image,alt,publisher,summary,price ,tagStr,authorStr});
   }
   await next();
 }

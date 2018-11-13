@@ -23,6 +23,7 @@
 <script>
   import YearPageProgress from '@/components/YearProgress'
   import config from '@/my_config'
+  import my_util from '@/my_util'
   import qcloud from 'wafer2-client-sdk'
   export default {
     components: {YearPageProgress},
@@ -76,12 +77,41 @@
           });
         }
       },
-      scanBook() {
-        wx.scanCode({
-          success (res) {
-            console.log(res)
+      //获取豆瓣读书信息
+      async getBook(isbn) {
+        console.log(config.getBookUrl);
+        try{
+          const res = await my_util.post('/weapp/getbook',{isbn,openId:this.userinfo.openId});
+          if(res.code === 0 && res.data.data)
+          {
+            console.log(res);
+            wx.showToast({
+              title: '查询成功'
+            });
           }
-        })
+        }
+        catch (e) {
+          console.log('cn7err',e);
+        }
+
+      },
+      //扫描图书isbn编码
+      scanBook() {
+        wx.scanCode(
+          {success:(res)=>
+            {
+              if(res.result)
+              {
+                  this.getBook(res.result)
+              }
+            }
+          });
+        // wx.scanCode({
+        //   success (res)
+        //   {
+        //
+        //   }
+        // })
       }
     }
     ,

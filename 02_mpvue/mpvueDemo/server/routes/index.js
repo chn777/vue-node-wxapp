@@ -34,7 +34,10 @@ router.post('/message', controllers.message.post)
 
 router.get('/demo', controllers.demo);
 
-
+//查询并添加书本数据到数据库
 router.post('/getbook', controllers.getbook);
+
+//获取书本列表
+router.get('/booklist', controllers.booklist);
 
 module.exports = router

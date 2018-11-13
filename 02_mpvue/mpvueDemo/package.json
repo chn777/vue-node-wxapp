@@ -19,7 +19,8 @@
     "ajv": "^6.5.5",
     "mpvue": "^1.0.11",
     "vue-template-compiler": "^2.5.17",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "wafer2-client-sdk": "^2.1.0"
   },
   "devDependencies": {
     "mpvue-loader": "^1.1.2",

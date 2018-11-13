@@ -28,6 +28,9 @@
       <change afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/static/img/room.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/static/img/todo-active.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/static/img/todo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/project.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/.eslintrc.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/server/README.md" beforeDir="false" />
@@ -52,6 +55,7 @@
       <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/components/TodoList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src_backup/components/TodoList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/my_config.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/my_config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/counter/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src_backup/pages/counter/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/counter/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/book/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/counter/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_mpvue/mpvueDemo/src_backup/pages/counter/store.js" afterDir="false" />
@@ -74,29 +78,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="my_util.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/my_util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/my_config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/index/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="92">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -104,11 +91,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="my_config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/my_config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="291">
+              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/index/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+              <folding>
+                <element signature="e#417#455#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,6 +137,7 @@
       <find>useQcloudLogin</find>
       <find>host</find>
       <find>json</find>
+      <find>getuserinfo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,12 +167,12 @@
         <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/book/index.vue" />
         <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/comments/index.vue" />
         <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/app.json" />
-        <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/index/index.vue" />
         <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/util.js" />
         <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/config.js" />
-        <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/my_config.js" />
         <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/my_util.js" />
+        <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/my_config.js" />
         <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/App.vue" />
+        <option value="$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/index/index.vue" />
       </list>
     </option>
   </component>
@@ -222,31 +231,7 @@
               <item name="vue-node-wxapp" type="462c0819:PsiDirectoryNode" />
               <item name="02_mpvue" type="462c0819:PsiDirectoryNode" />
               <item name="mpvueDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-node-wxapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-node-wxapp" type="462c0819:PsiDirectoryNode" />
-              <item name="02_mpvue" type="462c0819:PsiDirectoryNode" />
-              <item name="mpvueDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-node-wxapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-node-wxapp" type="462c0819:PsiDirectoryNode" />
-              <item name="02_mpvue" type="462c0819:PsiDirectoryNode" />
-              <item name="mpvueDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-node-wxapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-node-wxapp" type="462c0819:PsiDirectoryNode" />
-              <item name="02_mpvue" type="462c0819:PsiDirectoryNode" />
-              <item name="mpvueDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,34 +294,35 @@
       <workItem from="1541981057618" duration="10498000" />
       <workItem from="1541998104593" duration="2373000" />
       <workItem from="1542002412679" duration="1093000" />
-      <workItem from="1542003688425" duration="4647000" />
+      <workItem from="1542003688425" duration="7465000" />
+      <workItem from="1542070088848" duration="989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21772000" />
+    <option name="totallyTimeSpent" value="25579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003524" side_tool="true" weight="0.25939393" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" weight="0.31636363" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" visible="true" weight="0.31636363" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +337,40 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/index/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/index/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+          <folding>
+            <element signature="e#417#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/my_config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03_koa/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -358,34 +378,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/todolist/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/logs/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/todolist/main.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/todolist/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/todolist/index.vue" />
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/logs/main.js" />
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/todolist/main.json" />
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/todolist/main.js" />
     <entry file="file://$PROJECT_DIR$/03_koa/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -431,20 +427,6 @@
         <state relative-caret-position="-441" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/project.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/tools/cAuth.sql" />
     <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.local.js" />
     <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.local.js" />
@@ -475,12 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/.eslintrc.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/tools/initdb.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -488,41 +464,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src_backup/pages/logs/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/logs/main.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/build/vue-loader.conf.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/logs/main.json" />
     <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/build/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-639" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/build/dev-client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/logs/index.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/main.js">
@@ -542,16 +490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/components/card.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/components/TodoList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/components/TodoList.vue" />
     <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src_backup/pages/counter/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -572,10 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#103#124#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -634,40 +569,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/index/index.vue">
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/project.config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="395">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/my_util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/my_config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/index/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="92">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/my_config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        <state relative-caret-position="291">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_mpvue/mpvueDemo/src/pages/index/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+          <folding>
+            <element signature="e#417#455#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

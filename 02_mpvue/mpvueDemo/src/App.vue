@@ -1,21 +1,12 @@
 <script>
-  // import conf from './my_config';
-  // import my_util from './my_util';
-  // wx.request({
-  //   url: conf.host+'/weapp/demo', //仅为示例，并非真实的接口地址
-  //   success (res) {
-  //     console.log(res.data)
-  //   }
-  // });
-  import my_util from './my_util';
+
+import my_util from './my_util';
 
 export default {
   async created () {
 
     const res = await my_util.get('/weapp/demo');
     console.log(123,res);
-
-    console.log(logs,'app created and cache logs by setStorageSync')
   }
 }
 </script>

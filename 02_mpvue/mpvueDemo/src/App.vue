@@ -2,7 +2,6 @@
 
 import my_util from '@/my_util';
 import config from '@/my_config'
-import qcloud from 'wafer2-client-sdk'
 
 export default {
   data () {
@@ -27,54 +26,13 @@ export default {
           }
         });
 
-      },
-      loginSuccess (res)
-      {
-        wx.showToast({
-          title: '登录成功'
-        });
-        wx.setStorageSync('userinfo', res);
-        this.userinfo = res
-      },
-      login ()
-      {
-        wx.showToast({
-          title: '登录中',
-          icon: 'loading'
-        });
-        qcloud.setLoginUrl(config.loginUrl);
-        const session = qcloud.Session.get();
-        if (session)
-        {
-          qcloud.loginWithCode({
-            success: res => {
-              console.log('没过期的登录', res);
-              this.loginSuccess(res)
-            },
-            fail: err => {
-              console.error(err)
-            }
-          });
-        }
-        else
-        {
-          qcloud.login({
-            success: res => {
-              console.log('登录成功', res);
-              this.loginSuccess(res)
-            },
-            fail: err => {
-              console.error(err)
-            }
-          });
-        }
       }
+
     },
     async created ()
     {
       const res = await my_util.get('/weapp/demo');
       console.log(123,res);
-      await this.login()
     }
 }
 </script>

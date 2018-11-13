@@ -22,17 +22,60 @@
 
 <script>
   import YearPageProgress from '@/components/YearProgress'
+  import config from '@/my_config'
+  import qcloud from 'wafer2-client-sdk'
   export default {
     components: {YearPageProgress},
     data () {
       return {
         userinfo: {
           avatarUrl: 'http://image.shengxinjing.cn/rate/unlogin.png',
-          nickName: ''
+          nickName: '点击登录'
         }
       }
     },
     methods:{
+      loginSuccess (res)
+      {
+        wx.showToast({
+          title: '登录成功'
+        });
+        wx.setStorageSync('userinfo', res);
+        this.userinfo = res
+      },
+      login ()
+      {
+        wx.showToast({
+          title: '登录中',
+          icon: 'loading'
+        });
+        qcloud.setLoginUrl(config.loginUrl);
+        const session = qcloud.Session.get();
+        if (session)
+        {
+          qcloud.loginWithCode({
+            success: res => {
+              console.log('没过期的登录', res);
+              this.loginSuccess(res)
+            },
+            fail: err => {
+              console.error(err)
+            }
+          });
+        }
+        else
+        {
+          qcloud.login({
+            success: res => {
+              console.log('登录成功', res);
+              this.loginSuccess(res)
+            },
+            fail: err => {
+              console.error(err)
+            }
+          });
+        }
+      },
       scanBook() {
         wx.scanCode({
           success (res) {
@@ -42,13 +85,15 @@
       }
     }
     ,
-    created(){
+    onShow() {
+
       wx.showShareMenu();
       let userinfo = wx.getStorageSync('userinfo');
       if (userinfo)
       {
         this.userinfo = userinfo
       }
+
     }
   }
 </script>

@@ -1,5 +1,6 @@
 const https = require('https');
-const httpsGet = require('util').promisify(https.get);
+//引入MySQL实例
+const {mysql} = require('../qcloud');
 
 async function getJSON(url){
   let dataStr = "";
@@ -24,18 +25,52 @@ async function getJSON(url){
 
 
 
+
 //查询图书信息
 module.exports = async (ctx, next) => {
   //post获取的参数都在ctx.request.body属性中
   const {isbn,openId} = ctx.request.body;
-  if(isbn&&openId){
+  const openid = openId;
+  if(isbn&&openId)
+  {
+    const exitsBooks = await mysql('books').select().where('isbn',isbn);
+    if(exitsBooks.length)
+    {
+      ctx.state = {
+        code:-1,
+        data:{
+          msg:'图书已存在'
+        }
+      };
+      return ;
+    }
+
+
     const url = `https://api.douban.com/v2/book/isbn/${isbn}`
     const bookInfo = await getJSON(url);
-    const {title,image,alt,publisher,summary,price ,tags,author} = bookInfo;
-    const tagStr = tags.map(item=>{return `${item.name} ${item.count}` }).join(',');
-    const authorStr = author.join(',')
-    // tags.forEach(item=>tagStr+=(item.name +' '+ item.count+','));
-    console.log({title,image,alt,publisher,summary,price ,tagStr,authorStr});
+    const {title,image,alt,publisher,summary,price} = bookInfo;
+    const tags = bookInfo.tags.map(item=>{return `${item.name} ${item.count}` }).join(',');
+    const author = bookInfo.author.join(',')
+    const lineObj = {isbn,openid,title,image,alt,publisher,summary,price,tags,author};
+    try{
+      await mysql("books").insert(lineObj);
+      ctx.state = {
+        code:0,
+        data:{
+          msg:'成功',title
+        }
+      }
+    }
+    catch (e)
+    {
+      console.log('insert error',e);
+      ctx.state = {
+        code:-1,
+        data:{
+          msg:'新增失败' + e.sqlMessage
+        }
+      }
+    }
   }
   await next();
 }

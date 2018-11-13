@@ -80,18 +80,21 @@
       //获取豆瓣读书信息
       async getBook(isbn) {
         console.log(config.getBookUrl);
-        try{
+        try
+        {
           const res = await my_util.post('/weapp/getbook',{isbn,openId:this.userinfo.openId});
-          if(res.code === 0 && res.data.data)
-          {
-            console.log(res);
-            wx.showToast({
-              title: '查询成功'
-            });
-          }
+          console.log(res);
+          wx.showToast({
+            title: res.title+'添加成功'
+          });
         }
         catch (e) {
-          console.log('cn7err',e);
+
+          console.log('cn7err',e.data.data.msg,e);
+          wx.showModal({
+            title: '提示',
+            content:e.data.data.msg
+          });
         }
 
       },
@@ -106,12 +109,6 @@
               }
             }
           });
-        // wx.scanCode({
-        //   success (res)
-        //   {
-        //
-        //   }
-        // })
       }
     }
     ,

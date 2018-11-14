@@ -44,6 +44,10 @@ router.get('/booklist', controllers.booklist);
 router.get('/bookdetail',controllers.bookdetail);
 
 //获取最高流量
-router.get('/tops',controllers.tops)
+router.get('/tops',controllers.tops);
+
+//添加评论
+router.post('/addcomment', controllers.addcomment);
+
 
 module.exports = router

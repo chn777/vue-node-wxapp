@@ -17,6 +17,7 @@
         <switch color='#EA5A49' :checked='phone' @change='getPhone'></switch>
         <span class='text-primary'>{{phone}}</span>
       </div>
+      <button class="btn" @click="addComment">评论</button>
     </div>
   </div>
 </template>
@@ -32,7 +33,8 @@
         book:"",
         info:{},
         location:"",
-        phone:""
+        phone:"",
+        comment:''
       }
     },
     computed:{
@@ -42,6 +44,36 @@
 
     },
     methods:{
+      //添加评论
+      async addComment() {
+
+        let line = {
+          comment:this.comment,
+          location:this.location,
+          phone:this.phone,
+          openid:wx.getStorageSync('userinfo').openId,
+          bookid:this.book
+        };
+
+
+
+        try{
+          const res = await my_util.post('/weapp/addcomment',line);
+          console.log(res)
+          wx.showToast({
+            title: res.msg
+          });
+        }
+        catch (e) {
+
+          console.log('cn7err',e.data.data.msg,e);
+          wx.showModal({
+            title: '提示',
+            content:e.data.data.msg
+          });
+        }
+
+      },
       async getDetailInfo() {
         this.info = await my_util.get('/weapp/bookdetail',{id:this.book});
         console.log('detailInfo',info);

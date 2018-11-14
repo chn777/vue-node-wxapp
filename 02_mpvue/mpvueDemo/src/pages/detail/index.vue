@@ -1,29 +1,35 @@
 <template>
-  <div>图书ID{{book}}</div>
+  <div>
+    <book-info :info="info"></book-info>
+  </div>
 </template>
 
 <script>
   import my_util from '@/my_util'
+  import BookInfo from "@/components/BookInfo"
   export default {
     name: "index",
+    components:{BookInfo},
     data() {
       return {
         book:"",
+        info:{}
       }
     },
     methods:{
       async getDetailInfo() {
-        const info = await my_util.get('/weapp/bookdetail',{id:this.book});
-        console.log(info);
+        this.info = await my_util.get('/weapp/bookdetail',{id:this.book});
+        console.log('detailInfo',info);
+        wx.setNavigationBarTitle({title: this.info.title});
+
         return info;
       }
     },
     mounted() {
       const queryObj = this.$root.$mp.query;
-      console.log(queryObj)
+      console.log(queryObj);
       this.book = queryObj.id;
-      this.getDetailInfo()
-
+      this.getDetailInfo();
     }
   };
 </script>

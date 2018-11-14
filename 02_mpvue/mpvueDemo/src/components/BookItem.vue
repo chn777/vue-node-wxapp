@@ -1,5 +1,6 @@
 <template>
-  <div class="book-card">
+  <a :href="detailUrl">
+    <div class="book-card">
     <div class="thumb">
       <img :src="book.image"
            class="img"
@@ -36,6 +37,7 @@
 
     </div>
   </div>
+  </a>
 </template>
 
 <script>
@@ -45,6 +47,11 @@
 		name: "BookItem",
     components:{
       myRate
+    },
+    computed:{
+      detailUrl() {
+        return "../detail/main?id="+this.book.id
+      }
     },
     props:{
 		  book:{

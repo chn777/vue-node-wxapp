@@ -1,10 +1,7 @@
 {
-  "pages": [
-    "pages/book/main"
-  ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#EA5149",
+    "navigationBarBackgroundColor": "#FA5149",
     "navigationBarTitleText": "HelloWorld22",
     "navigationBarTextStyle": "light"
   }

@@ -7,7 +7,7 @@ module.exports = async(ctx,next) =>
   const books = await mysql('books').select("books.*","cSessionInfo.user_info")
                       .join('cSessionInfo','books.openid','cSessionInfo.open_id')
                       .limit(10)
-                      .offset(Number(page) * 10);
+                      .offset(Number(page) * 10).orderBy('books.title');
   console.log(books);
   ctx.state.data = {list:books.map(v=>{
     const info = JSON.parse(v.user_info);

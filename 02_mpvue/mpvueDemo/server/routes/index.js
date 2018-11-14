@@ -40,4 +40,7 @@ router.post('/getbook', controllers.getbook);
 //获取书本列表
 router.get('/booklist', controllers.booklist);
 
+//获取详情信息
+router.get('/bookdetail',controllers.bookdetail)
+
 module.exports = router

@@ -21,6 +21,7 @@
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.17",
+    "vue-tiny-rate": "^0.1.6",
     "vuex": "^3.0.1",
     "wafer2-client-sdk": "^2.1.0"
   },

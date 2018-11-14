@@ -49,9 +49,11 @@ module.exports = async (ctx, next) => {
     const url = `https://api.douban.com/v2/book/isbn/${isbn}`
     const bookInfo = await getJSON(url);
     const {title,image,alt,publisher,summary,price} = bookInfo;
+    console.log(bookInfo);
     const tags = bookInfo.tags.map(item=>{return `${item.name} ${item.count}` }).join(',');
     const author = bookInfo.author.join(',')
-    const lineObj = {isbn,openid,title,image,alt,publisher,summary,price,tags,author};
+    const lineObj = {isbn,openid,title,image,alt,publisher,summary,price,tags,author,rate:bookInfo.rating.average};
+    console.log('rate===',lineObj);
     try{
       await mysql("books").insert(lineObj);
       ctx.state = {

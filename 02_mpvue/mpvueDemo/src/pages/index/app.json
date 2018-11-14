@@ -1,9 +1,12 @@
 {
+  "pages": [
+    "pages/index/main"
+  ],
+  "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#EA5149",
     "navigationBarTitleText": "HelloWorld22",
-    "navigationBarTextStyle": "light",
-    "enablePullDownRefresh":true
+    "navigationBarTextStyle": "light"
+  }
 }
-
 

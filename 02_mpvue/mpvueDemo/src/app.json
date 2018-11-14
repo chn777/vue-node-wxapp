@@ -7,8 +7,9 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#EA5149",
-    "navigationBarTitleText": "HelloWorld",
-    "navigationBarTextStyle": "light"
+    "navigationBarTitleText": "图书",
+    "navigationBarTextStyle": "light",
+    "enablePullDownRefresh":true
   },
   "tabBar": {
     "selectedColor":"#EA5149",

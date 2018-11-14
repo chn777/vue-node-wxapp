@@ -1,6 +1,7 @@
 <template>
 	<div>
     <book-item :key="books.id" v-for="book of books" :book="book"></book-item>
+    <p v-if="!more" style="font-size: 10px;color: brown;text-align: center">没有更多数据</p>
   </div>
 </template>
 
@@ -12,17 +13,36 @@
     components: {BookItem},
     data() {
 		  return {
-		    books:[]
+		    books:[],
+        page:0,
+        more:true
       }
     },
     methods:{
-      async getBookList() {
+      async getBookList(init) {
+        if(init){
+          this.page = 0
+        }
         wx.showNavigationBarLoading();
         try
         {
-          const res = await my_util.get('/weapp/booklist');
+          const res = await my_util.get('/weapp/booklist',{page:this.page});
           console.log(res);
-          this.books = res.list;
+          if(this.page > 0 && res.list.length < 10){
+            this.more = false;
+          }
+          else
+          {
+            this.more = true
+          }
+          if(init){
+            this.books = res.list;
+          }
+          else
+          {
+            this.books = this.books.concat(res.list)
+          }
+
           wx.stopPullDownRefresh();
           wx.hideNavigationBarLoading();
         }
@@ -35,13 +55,21 @@
       },
     },
     onPullDownRefresh(){
-      this.getBookList();
+      this.getBookList(true);
 		  console.log("下拉")
-    }
-    ,
+    },
+    onReachBottom(){
+		  console.log('bottom')
+		  if(this.more){
+		    this.page+=1;
+		    this.getBookList()
+      }else{
+		    return
+      }
+    },
     created()
     {
-		  this.getBookList()
+		  this.getBookList(true)
     }
 	}
 </script>

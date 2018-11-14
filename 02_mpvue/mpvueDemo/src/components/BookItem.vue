@@ -1,7 +1,7 @@
 <template>
   <a :href="detailUrl">
     <div class="book-card">
-    <div class="thumb">
+    <div class="thumb" @click.stop="prevImg(book.image)">
       <img :src="book.image"
            class="img"
            mode="aspectFit"
@@ -47,6 +47,14 @@
 		name: "BookItem",
     components:{
       myRate
+    },
+    methods:{
+      prevImg(imgUrl) {
+        wx.previewImage({
+          current: imgUrl, // 当前显示图片的http链接
+          urls: [imgUrl] // 需要预览的图片http链接列表
+        })
+      }
     },
     computed:{
       detailUrl() {

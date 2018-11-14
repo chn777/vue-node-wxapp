@@ -41,6 +41,9 @@ router.post('/getbook', controllers.getbook);
 router.get('/booklist', controllers.booklist);
 
 //获取详情信息
-router.get('/bookdetail',controllers.bookdetail)
+router.get('/bookdetail',controllers.bookdetail);
+
+//获取最高流量
+router.get('/tops',controllers.tops)
 
 module.exports = router
